@@ -1,10 +1,11 @@
 from unittest import TestCase
-from main import Hello
+from src.main import Hello
 
 
 class TestHello(TestCase):
     def test_hello(self):
         self.hi = Hello()
+
 
 
 class TestInit(TestHello):
