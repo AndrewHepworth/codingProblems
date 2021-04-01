@@ -9,6 +9,6 @@ arr = [[1, 1, 1, 0, 0, 0],
        [0, 0, 1, 2, 4, 0]]
 
 
-class Test_hourglass(TestCase):
+class TestHourglass(TestCase):
     def test_hourglass_sum(self):
         self.assertEqual(hourglass_sum(arr), 19)
