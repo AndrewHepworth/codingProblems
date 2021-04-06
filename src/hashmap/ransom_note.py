@@ -17,6 +17,7 @@ def checkMagazine(magazine, note):
             no_te.remove(word)
             if note_size < 1 :
                 print("Yes")
+                break
 
     if note_size > 0:
         return "No"
