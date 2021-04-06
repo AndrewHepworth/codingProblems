@@ -15,10 +15,14 @@ def checkMagazine(magazine, note):
         if word in no_te:
             note_size = note_size - 1
             no_te.remove(word)
+            if note_size < 1 :
+                print("Yes")
 
-    if note_size > 0:
-        return "No"
-        # print("No")
-    else:
-        return "Yes"
+
+    print("No")
+    # if note_size > 0:
+    #     return "No"
+    #     # print("No")
+    # else:
+    #     return "Yes"
         # print("Yes")
