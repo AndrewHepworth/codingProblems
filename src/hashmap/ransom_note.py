@@ -18,11 +18,9 @@ def checkMagazine(magazine, note):
             if note_size < 1 :
                 print("Yes")
 
-
-    print("No")
-    # if note_size > 0:
-    #     return "No"
-    #     # print("No")
+    if note_size > 0:
+        return "No"
+        # print("No")
     # else:
     #     return "Yes"
         # print("Yes")
